@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פנקייק קליקר</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- חלק שמאל - הפנקייק -->
+        <div class="left-section">
+            <button id="pancakeBtn" class="pancake-btn">
+                <div class="pancake">
+                    <div class="pancake-syrup"></div>
+                </div>
+            </button>
+            
+            <!-- תיבת כסף -->
+            <div class="money-box">
+                <p>כסף: <span id="money">0</span></p>
+            </div>
+        </div>
+
+        <!-- חלק ימין - השפים -->
+        <div class="right-section">
+            <h2>קנה שפים</h2>
+            <div class="chefs-container">
+                <div class="chef" data-chef="0">
+                    <h3>שף מתחיל</h3>
+                    <p class="cost">עלות: <span id="cost-0">5</span></p>
+                    <p class="income">הכנסה: <span id="income-0">2</span></p>
+                    <p class="owned">בבעלותך: <span id="owned-0">0</span></p>
+                </div>
+
+                <div class="chef" data-chef="1">
+                    <h3>שף לומד</h3>
+                    <p class="cost">עלות: <span id="cost-1">50</span></p>
+                    <p class="income">הכנסה: <span id="income-1">15</span></p>
+                    <p class="owned">בבעלותך: <span id="owned-1">0</span></p>
+                </div>
+
+                <div class="chef" data-chef="2">
+                    <h3>שף מתקדם</h3>
+                    <p class="cost">עלות: <span id="cost-2">100</span></p>
+                    <p class="income">הכנסה: <span id="income-2">25</span></p>
+                    <p class="owned">בבעלותך: <span id="owned-2">0</span></p>
+                </div>
+
+                <div class="chef" data-chef="3">
+                    <h3>שף מתקדם מאוד</h3>
+                    <p class="cost">עלות: <span id="cost-3">5000</span></p>
+                    <p class="income">הכנסה: <span id="income-3">100</span></p>
+                    <p class="owned">בבעלותך: <span id="owned-3">0</span></p>
+                </div>
+
+                <div class="chef" data-chef="4">
+                    <h3>שף מאסטר</h3>
+                    <p class="cost">עלות: <span id="cost-4">15000</span></p>
+                    <p class="income">הכנסה: <span id="income-4">500</span></p>
+                    <p class="owned">בבעלותך: <span id="owned-4">0</span></p>
+                </div>
+
+                <div class="chef" data-chef="5">
+                    <h3>שף אולטרה מאסטר</h3>
+                    <p class="cost">עלות: <span id="cost-5">30000</span></p>
+                    <p class="income">הכנסה: <span id="income-5">1500</span></p>
+                    <p class="owned">בבעלותך: <span id="owned-5">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
