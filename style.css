@@ -1,0 +1,38 @@
+.pancake-button {
+  float: left;
+  background-color: #ffcc00;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.money-box {
+  float: right;
+  background-color: #00cc66;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.chef-card {
+  float: right;
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 200px;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
